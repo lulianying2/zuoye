@@ -1,0 +1,23 @@
+<html><head>
+		<meta charset="UTF-8">
+		<title></title>
+	
+<style>
+#clip_copy,#web-copy-btn-wk{
+   background:#54aae9 !important
+}
+</style>
+</head>
+	<body>
+		一：<input type="text" id="t1"><br>
+		二：<input type="text" id="t2"><br>
+		<button onclick="a()">复制</button>
+		<div style="display: none" id="t3">复制成功</div>
+		<script type="text/javascript">
+			function a() {
+				document.getElementById("t2").value = document.getElementById("t1").value;
+				document.getElementById("t3").style.display = '';
+			}
+		</script>
+	
+</body></html>
